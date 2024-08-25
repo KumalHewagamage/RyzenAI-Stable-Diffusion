@@ -152,5 +152,7 @@ Here's a list of arguments.
         guidance_rescale: float
 ```
 
+Converted models can be find at <a href="https://huggingface.co/logicbomb95/FaceGen-ONNX">Hugging Face</a>.
+
 
 
