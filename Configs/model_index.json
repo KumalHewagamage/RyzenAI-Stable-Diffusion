@@ -1,0 +1,41 @@
+{
+  "_class_name": "ORTStableDiffusionPipeline",
+  "_diffusers_version": "0.23.1",
+  "feature_extractor": [
+    "transformers",
+    "CLIPFeatureExtractor"
+  ],
+  "requires_safety_checker": true,
+  "safety_checker": [
+    "stable_diffusion",
+    "StableDiffusionSafetyChecker"
+  ],
+  "scheduler": [
+    "diffusers",
+    "DDIMScheduler"
+  ],
+  "text_encoder": [
+    "diffusers",
+    "OnnxRuntimeModel"
+  ],
+  "text_encoder_2": [
+    null,
+    null
+  ],
+  "tokenizer": [
+    "transformers",
+    "CLIPTokenizer"
+  ],
+  "unet": [
+    "diffusers",
+    "OnnxRuntimeModel"
+  ],
+  "vae_decoder": [
+    "diffusers",
+    "OnnxRuntimeModel"
+  ],
+  "vae_encoder": [
+    "diffusers",
+    "OnnxRuntimeModel"
+  ]
+}
